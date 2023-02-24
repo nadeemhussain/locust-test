@@ -1,0 +1,1 @@
+locust -f locust.py --headless -u 1000 -r 100 --run-time 300s --html=basicNew.html --host http://noon-solrcloud-common.solr.svc.cluster.local/solr/offer_ae/
